@@ -1,15 +1,10 @@
 package game
 
+import game.board.Board
+
 fun main(args: Array<String>) {
     println("Tic-Tac-Toe")
 
-    println(boardAsString())
-}
-
-fun boardAsString(): String {
-    return  "   |   |   " + "\n" +
-            "---.---.---" + "\n" +
-            "   |   |   " + "\n" +
-            "---.---.---" + "\n" +
-            "   |   |   "
+    val board = Board()
+    println(board)
 }
