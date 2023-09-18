@@ -1,3 +1,5 @@
+package game
+
 fun main(args: Array<String>) {
     println("Tic-Tac-Toe")
 
